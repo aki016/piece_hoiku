@@ -1,0 +1,16 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #ffa3c2;
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+#navigation table tr{
+    height: 60px;
+}
+
+#gyouji_syasin p img{
+    width: 300px;
+}

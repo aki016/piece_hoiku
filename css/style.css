@@ -1,0 +1,46 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #a3ffb6;
+    width:375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+#top_title{
+    /* background: red; */
+    width: 50%;
+}
+
+#top_image{
+    /* background: red; */
+    width:250px;
+}
+
+#top_koumoku{
+    /* background: red; */
+    text-align: center;
+    list-style: none;
+    line-height: 3px;
+}
+
+#top_koumoku li img{
+    /* background: red; */
+    width:130px;
+    position: relative;
+    left:85px;
+}
+#top_koumoku li a{
+    /* background: red; */
+    display: inline-block;
+    width:200px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -40px;
+    left:-80px;
+}
+
+#sonota{
+    line-height:14px;
+}

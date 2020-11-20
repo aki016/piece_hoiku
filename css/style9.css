@@ -1,0 +1,24 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #fae4ff;
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+
+#gallery>div{
+    background: rgb(242, 192, 255);
+    margin: 0;
+    padding: 20px;
+}
+
+#navigation a{
+    font-size:3px;
+}
+
+#riyoukiyaku{
+    margin-left:110px;
+}
+

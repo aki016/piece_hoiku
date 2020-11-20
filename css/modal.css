@@ -1,0 +1,68 @@
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝ モーダル＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+#open:hover{
+    cursor: pointer;
+}
+#close {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px 0;
+    margin: 16px auto 0;
+}
+
+#mask{
+    background: rgba(0,0,0,0.4);
+    /* ↓画面全体 */
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index:1;
+}
+
+#modal{
+    background: rgb(160, 255, 122);
+    width: 300px;
+    /* padding: 20px; */
+    border: 8px solid rgb(19, 85, 19);
+    border-radius: 4px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: tranceform 0.4s;
+    z-index:2;
+}
+
+#modal ul{
+    /* background: red; */
+    list-style:none;
+    text-align:center;
+    padding:0;
+}
+
+#modal ul li{
+    font-size:18px;
+    /* background: red; */
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height:35px;
+    margin:0;
+}
+#modal ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#mask.hidden{
+    display:none;
+}
+#modal.hidden{
+    transform: translate(0, -500px);
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝モーダル終了＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */

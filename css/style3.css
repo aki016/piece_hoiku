@@ -1,0 +1,30 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #d1ffcd;
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+#rinen_image{
+    width:300px;
+}
+
+#navigation:hover{
+    cursor: pointer;
+}
+
+#navigation p img{
+    width: 300px;
+}
+
+#sisestu_syasin img{
+    width: 300px;
+}
+
+#housin{
+    /* background: red; */
+    font-size: 11px;
+    margin-left: 17px;
+}

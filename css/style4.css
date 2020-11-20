@@ -1,0 +1,12 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #ffefaa;
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+#gyouji_syasin p img{
+    width: 300px;
+}

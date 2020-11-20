@@ -1,0 +1,30 @@
+body{
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background: #ffd891;
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+}
+
+#gallery img{
+    width:300px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation img{
+    width:200px;
+    padding-top:10px;
+}
+
+#piece_hiroba_text{
+    padding-top: 15px;
+    flex:3;
+}
+#piece_hiroba_img{
+    flex:2;
+}
